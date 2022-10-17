@@ -1,5 +1,7 @@
 # Unreleased
 
+- Adds the `strip` option, allowing a user to specify how they want debug symbols treated after cargo has finished building, but before the shared object is copied into the APK. ([#356](https://github.com/rust-windowing/android-ndk-rs/pull/356))
+
 # 0.9.5 (2022-10-14)
 
 - Automate `adb reverse` port forwarding through `Cargo.toml` metadata ([#348](https://github.com/rust-windowing/android-ndk-rs/pull/348))

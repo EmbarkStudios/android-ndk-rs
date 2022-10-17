@@ -1,5 +1,7 @@
 # Unreleased
 
+- Adds `ApkConfig::strip`, allowing a user to specify how they want debug symbols treated after cargo has finished building, but before the shared object is copied into the APK. ([#356](https://github.com/rust-windowing/android-ndk-rs/pull/356))
+
 # 0.8.1 (2022-10-14)
 
 - Provide `reverse_port_forwarding()` to set up `adb reverse` ([#348](https://github.com/rust-windowing/android-ndk-rs/pull/348))
